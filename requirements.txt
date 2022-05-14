@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib.pyplot
+matplotlib
+imageio
+skimage.color
