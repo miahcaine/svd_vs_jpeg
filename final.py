@@ -8,6 +8,7 @@ import imageio
 from skimage.color import rgb2gray
 from scipy import fftpack
 
+# ! not used for the final paper :( 
 def jpegCompress(img):
     A=imageio.imread(img)
     A=rgb2gray(A)
@@ -133,6 +134,7 @@ def main():
     print("BEGINNING SVD COMPRESSION")
     svdCompress(img)
 
-    print("BEGINNING JPEG COMPRESSION")
-    jpegCompress(img)
+    # ! not used for this project
+    # print("BEGINNING JPEG COMPRESSION")
+    # jpegCompress(img)
 main()
